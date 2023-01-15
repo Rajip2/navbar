@@ -49,14 +49,14 @@ body{
 
 .features-1{
   grid-area: features-1;
-  background-image: url(Image/img.jpg);
+  background-image: url(Image/Img.jpg);
   background-position: center;
   background-size:cover;
 }
 
 .features-2{
   grid-area: features-2;
-  background-image: url(Image/imges.jpg);
+  background-image: url(Image/Imges.jpg);
   background-position: center;
   background-size:cover;
 }
