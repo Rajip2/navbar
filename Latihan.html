@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My website</title>
+    <link rel="stylesheet" href="Stylegrid.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+      <div class="hero">
+      <h2 class="heading">Tesla store</h2>
+      <p class="sub-heading">Ayo Belanja disini anda puas Tetangga Memanas</p>
+      </div>
+      <div class="features features-1">
+        <h4 class="price">IDR 1,5 M</h4>
+        <p class="item">Tesla Y-3</p>
+      </div>
+      <div class="features features-2">
+        <h4 class="price">IDR 1 M</h4>
+        <p class="item">Tesla Y-1</p>
+      </div>
+      </header>
+      <nav class="menu">
+       <div class="menu-toggle">
+           <input type="checkbox" />
+           <span></span>
+           <span></span>
+           <span></span>
+         </div>
+           
+        <div class="brand">
+          <h1>Otomotif store</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    <section class="services">
+      <div class="service">
+        <div class="icon"><img src="Image/Tesla1.jpg" /></div>
+        <h3>Tesla X-3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi tempore, officia recusandae repellat tenetur! Veritatis.</p>
+      </div>
+      <div class="service">
+        <div class="icon"><img src="Image/Tesla2.jpg" /></div>
+        <h3>Tesla X-2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur obcaecati eligendi doloribus est qui corporis!</p>
+      </div>
+      <div class="service">
+        <div class="icon"><img src="Image/Tesla4.jpg" /></div>
+        <h3>Tesla X-1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci nam aut enim nobis quod id.</p>
+      </div>
+      <div class="service">
+        <div class="icon"><img src="Image/Tesla8.jpg" /></div>
+        <h3>Tesla Y-9</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore temporibus corporis, ex at atque possimus!</p>
+      </div>
+    </section>
+    
+    <section class="gallery">
+      <h2>Gallery</h2>
+      <img src="Image/Tesla7.jpg" />
+      <img src="Image/Tesla8.jpg" />
+      <img src="Image/Tesla9.png" />
+      <img src="Image/Tesla1.jpg" />
+      <img src="Image/Tesla2.jpg" />
+      <img src="Image/Tesla3.jpg" />
+      <img src="Image/Tesla4.jpg" />
+      <img src="Image/Tesla5.jpg" />
+      <img src="Image/Tesla6.jpg" />
+      <img src="Image/Tesla.jpg" />
+    </section>
+    <script>
+    const menuToggle = document.querySelector('.menu-toggle input');
+    const nav = document.querySelector('nav ul');
+
+    menuToggle.addEventListener('click',function(){
+    nav.classList.toggle('slide');
+});
+    </script>
+  </body>
+</html>
